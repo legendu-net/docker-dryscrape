@@ -1,6 +1,6 @@
-# dclong/python
+# dclong/dryscrape
 
-Python in Docker. 
+Dryscrape for scraping dynamic, Javascript-heavy web pages. 
 
 ## About the Author
 
@@ -14,7 +14,7 @@ docker run -d \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_PASSWORD=`id -un` \
     -v $HOME:/wwwroot \
-    dclong/python
+    dclong/dryscrape
 ```
 
 ```
@@ -22,5 +22,5 @@ docker run -d \
     -e DOCKER_USER=`id -un` \
     -e DOCKER_USER_ID=`id -u` \
     -v $HOME:/wwwroot \
-    dclong/python
+    dclong/dryscrape
 ```
