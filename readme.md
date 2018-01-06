@@ -1,4 +1,4 @@
-# dclong/dryscrape
+# [dclong/dryscrape](https://hub.docker.com/r/dclong/dryscrape/)
 
 Dryscrape for scraping dynamic, Javascript-heavy web pages. 
 
