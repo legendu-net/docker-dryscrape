@@ -10,4 +10,4 @@ RUN pip3 install dryscrape
 
 COPY scripts /scripts
 
-ENTRYPOINT ["/scripts/init.sh"]
+ENTRYPOINT ["/scripts/sys/init.sh"]
